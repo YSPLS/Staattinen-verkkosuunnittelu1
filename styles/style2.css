@@ -2,12 +2,15 @@
     width: auto;
     margin: auto;
     background-color: blueviolet;
+    padding: 20px;
     h1{
         text-align: center;
+        color: white;
     }
 }
 .aside{
-    background-color: blue; 
+    background-color: white; 
+    padding: 20px;
 }
 .article{
     background-color: aqua;
@@ -16,5 +19,7 @@
     background-color: blueviolet;
     h1{
     text-align: center;
+    padding: 20px;
+    color: white;
 }
 }
