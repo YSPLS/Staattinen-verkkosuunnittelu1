@@ -1,3 +1,16 @@
+.main-header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    h1{
+        margin: 0;
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
 .content-article{
     background-color: greenyellow;
     border: 1px, color(#ddd);

@@ -1,0 +1,22 @@
+.header{
+    width: auto;
+    margin: auto;
+    background-color: blueviolet;
+    h1{
+        text-align: center;
+    }
+}
+.aside{
+    display: flex;
+    background-color: blue; 
+}
+.article{
+    display: flexbox;
+    background-color: aqua;
+}
+.footer{
+    background-color: blueviolet;
+    h1{
+    text-align: center;
+}
+}
