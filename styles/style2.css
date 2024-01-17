@@ -7,11 +7,9 @@
     }
 }
 .aside{
-    display: flex;
     background-color: blue; 
 }
 .article{
-    display: flexbox;
     background-color: aqua;
 }
 .footer{

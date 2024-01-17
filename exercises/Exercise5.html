@@ -7,48 +7,67 @@
     <title>Exercise 5</title>
     <link rel="stylesheet" href="..\styles\style2.css">
   </head>
+  <style>
+    main {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+main > aside, main > section {
+    display: flex;
+    flex-direction: column;
+}
+  </style>
   <header class="header">
     <h1>
         Flexbox examples
     </h1>
   </header>
   <body>
-    <aside class="aside">
-      <ul>
-        <li> AAAAAAAAA</li>
-        <li> AAAAAAAAA</li>
-        <li> AAAAAAAAA</li>
-      </ul>
-    </aside>
+  <main>
+    <section>
+    <article class="article">
+      <h1>
+        What is HTML5?
+      </h1>
+      <p>
+        HTML5 should be illegal and removed from the world.
+      </p>
+    </article>
+<hr>
+    <article class="article">
+      <h1>
+        What is HTML5?
+      </h1>
+      <p>
+        HTML5 should be illegal and removed from the world.
+      </p>
+    </article>
+<hr>
+    <article class="article">
+      <h1>
+        What is HTML5?
+      </h1>
+      <p>
+        HTML5 should be illegal and removed from the world.
+      </p>
+    </article>
+    <hr>
+    </section>
 
-    <article class="article">
-      <h1>
-        What is HTML5?
-      </h1>
-      <p>
-        HTML5 should be illegal and removed from the world.
-      </p>
-    </article>
-    <article class="article">
-      <h1>
-        What is HTML5?
-      </h1>
-      <p>
-        HTML5 should be illegal and removed from the world.
-      </p>
-    </article>
-    <article class="article">
-      <h1>
-        What is HTML5?
-      </h1>
-      <p>
-        HTML5 should be illegal and removed from the world.
-      </p>
-    </article>
-  </body>
+  <aside class="aside">
+    <h3> Osa1 </h3>
+
+    <h3> Osa2 </h3>
+
+    <h3> Osa3 </h3>
+</aside>
+
+</main>
   <footer class="footer">
     <h1>
       Learning flex @2024
     </h1>
   </footer>
+</body>
 </html>
