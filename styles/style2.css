@@ -3,23 +3,23 @@
     margin: auto;
     background-color: blueviolet;
     padding: 20px;
-    h1{
+}
+.header h1{
         text-align: center;
         color: white;
     }
-}
 .aside{
     background-color: white; 
-    padding: 20px;
+    padding: 25px;
 }
 .article{
     background-color: aqua;
 }
 .footer{
     background-color: blueviolet;
-    h1{
+}
+.footer h1{
     text-align: center;
     padding: 20px;
     color: white;
-}
 }

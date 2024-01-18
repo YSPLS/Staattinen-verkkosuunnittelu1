@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
+
+    <style>
+      main {
+      display: inline-flex;
+      flex-direction: row-reverse;
+  }
+  
+  main > aside, main > section {
+      display: flex;
+      flex-direction: column;
+  }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercise 5</title>
-    <link rel="stylesheet" href="..\styles\style2.css">
+    <link rel="stylesheet" href="../styles/style2.css">
   </head>
-  <style>
-    main {
-    display: inline-flex;
-    flex-direction: row-reverse;
-}
-
-main > aside, main > section {
-    display: flex;
-    flex-direction: column;
-}
-  </style>
-  <header class="header">
-    <h1>
-        Flexbox examples
-    </h1>
-  </header>
   <body>
-  <main>
-    <section>
-    <article class="article">
+    <header class="header">
       <h1>
-        What is HTML5?
+          Flexbox examples
       </h1>
+    </header>
+  <main>
+    <div>
+    <article class="article">
+      <h2>
+        What is HTML5?
+      </h2>
       <p>
         HTML5 should be illegal and removed from the world.
       </p>
     </article>
 <hr>
     <article class="article">
-      <h1>
+      <h2>
         What is HTML5?
-      </h1>
+      </h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rem! Mollitia illo id quibusdam placeat repudiandae consequatur illum dolorem architecto laboriosam cupiditate similique error, minima, rem iusto omnis quo. Sapiente.
       </p>
     </article>
 <hr>
     <article class="article">
-      <h1>
+      <h2>
         What is HTML5?
-      </h1>
+      </h2>
       <p>
         HTML5 should be illegal and removed from the world.
       </p>
     </article>
     <hr>
-    </section>
+    </div>
 
   <aside class="aside">
     <h3> Osa1 </h3>
